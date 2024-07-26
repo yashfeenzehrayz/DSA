@@ -1,0 +1,4 @@
+2239. Find Closest Number to Zero
+Solution:
+ ans = min(abs(x) for x in nums)
+ return ans if ans in nums else -ans
